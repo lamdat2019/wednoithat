@@ -1,0 +1,405 @@
+/* CSS Document */
+* { 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #fff;
+	overflow-x: hidden;
+}
+header{
+	overflow: hidden;	
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	background: rgba(0,0,0,0.44);
+	color: rgba(255,255,255,1.00);
+}
+.btn-1{
+	width: 250px;
+	height: 60px;
+	border: none;
+	color: white;
+	background-color: #c19b76;
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 0 #fff;
+	transition: ease-out 0.3s;
+	font-size: 1.5rem;
+	outline: none;
+	margin-top: 500px;
+}
+.btn-1:hover{
+	box-shadow: inset 300px 0 0 0  #fff;
+	cursor: 2rem;
+	color: #c19b76;
+}
+.btn-2{
+	width: 250px;
+	height: 50px;
+	border: none;
+	color: white;
+	background-color: #c19b76;
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 0 #fff;
+	transition: ease-out 0.3s;
+	font-size: 1.5rem;
+	outline: none;
+	margin-top:50px;
+}
+.btn-2:hover{
+	box-shadow: inset 300px 0 0 0  #fff;
+	cursor: 2rem;
+	color: #c19b76;
+}
+.banner{
+	width: 100%;
+	overflow: hidden;
+	background: url("../img/bg-image-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-position: center;
+}
+.text{
+	padding-top: 500px;
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	overflow: hidden;
+}
+.logo a{
+	color: white;
+	font-size: 42px;
+	text-decoration: none;
+	font-weight: 500;	
+}
+.top-bar{
+	background: #f5f3f3;
+	height: 100px;
+}
+.banner{
+	height: 100vh;	
+	/*background: #e6f2f2;*/
+}
+.sale-off{
+	background: #f5f6fa;
+	text-align: center;
+	font-size: 30px;
+}
+.btn{
+	align-items: center;
+	margin: 50px;
+	border: 2px;
+	background: #c19b76;
+	padding: 12px 20px;
+	border-radius: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+.tieu-de{
+	color: #c19b76;
+	text-align: center;
+	font-size: 30px;
+}
+.gia-tien{
+	text-align: left;
+	font-size: 15px;
+	color: #c19b76;
+	padding-top: 15px;
+	margin-left: 20px;
+}
+.gia-tien-2 h2{
+	text-align: center;
+	padding-top: 420px;
+	color: #111;
+}
+.gia-tien-2 p{
+	text-align: center;
+	padding-top: 10px;
+	color: rgba(21, 21, 21, 0.7);
+}
+
+.ten-phong{
+	text-align: left;
+		margin-left: 18px;
+}
+.services{
+	padding-top: 50px;
+}
+.img-box{
+	overflow: hidden;
+}
+
+.icon-box{
+	text-align: left;
+	margin: 15px;
+	padding: 100px 0;
+}
+ion-icon{
+	font-size: 30px;
+	padding-left: 30px;
+}
+.menu{
+	height:  100%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+	display: flex;
+}
+.menu li{
+	margin: 0 16px;
+	position: relative;
+}
+.menu li a{
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	display: inline-block;
+}
+.menu li a:hover{
+	color: rgba(197,197,197,1.00);
+}
+.menu li:hover .sub-menu{
+	opacity: 1;
+	visibility: visible;
+}
+.bgk{
+	background: url("../img/call-to-action-1-1920x456.jpg");
+	width: 100%;
+	height: 650px;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 100px;
+}
+.text-bgk{
+	align-content: center;
+	text-align: center;
+    padding-top: 235px;
+	color: #fff;
+	font-size: 40px;
+}
+.text-white{
+	font-size: 16px;
+	color: #fff!important;
+}
+.row{
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+footer{
+	background:#353535;
+	height: auto;
+	width: 100vw;
+	padding-top: 40px;
+	color: #fff;
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-bottom h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+.footer-content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 29px;
+	font-size: 14px;
+}
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+.socials ion-icon{
+	margin:  10px;
+}
+.socials ion-icon:hover {
+	color:#c19b76;
+	transition: color .4s ease;
+}
+.footer-bottom{
+	background: #111;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer-bottom span{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}
+
+.container2{
+	padding-top: 100px;
+	padding-bottom: 200px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+
+.img-1{
+	align-items: center;
+	align-content: center;
+	width: 500px;
+	height:400px;
+	margin: 0 40px;
+	display: block;
+}
+
+.rotate-1{
+	transition: transform 2s linear, border-aradius 15s ease, background 1s ease-in;
+	background:  url("../img/erick-palacio-_B9J6abAHPA-unsplash.jpg");
+}
+.rotate-1:hover{
+	border-radius: 50%;
+	background:  url("../img/roberto-nickson-emqnSQwQQDo-unsplash.jpg");
+}
+.rotate-2{
+	transition: transform 2s linear, border-aradius 15s ease, background 1s ease-in;
+	background:  url("../img/francesca-tosolini-HAZxfmBYpfo-unsplash.jpg");
+}
+.rotate-2:hover{
+	border-radius: 50%;
+	background:  url("../img/erick-palacio-tJXkQ3Borlc-unsplash.jpg");
+}
+.rotate-3{
+	transition: transform 2s linear, border-aradius 15s ease, background 1s ease-in;
+	background: url("../img/paul-postema-mr0Dp231IEw-unsplash.jpg");
+}
+.rotate-3:hover{
+	border-radius: 50%;
+	background:  url("../img/patrick-robert-doyle-pZ6W7HuuY6w-unsplash.jpg");
+}
+.img{
+	width: 200px;
+	height: 300px;
+	margin: 50px;
+	overflow: hidden;
+}
+.img img{
+	widows: 100%;
+	transition: all 2s ease;
+}
+.zoom img:hover{
+	transform: scale(1.5)
+}
+.fade{
+	opacity: .5;
+	transition: all 1s linear;
+}
+.fade:hover{
+	opacity: 1;
+}
+.filter{
+	filter: grayscale(100%);
+	transition: all .5s linear;
+}
+.filter:hover{
+	filter: grayscale(0%)
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+ margin: 200px 650px;
+  width: 50%;
+	z-index: 9999999;
+	position: absolute;
+}
+
+/* The Close Button */
+.close {
+  color: #FFFFFF;
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+	position: fixed;
+	right: 560px;
+	top:200px;
+	z-index: 9999;
+}
+
+.close:hover,
+.close:focus {
+  color: #cccccc;
+  text-decoration: none;
+  cursor: pointer;
+}	
+.mybtn{
+	display: flex;
+	overflow: hidden;
+	position: absolute;
+	margin: -550px 0 0 1150px;
+	color: white;
+}
+.mybtn:hover{
+	color: #cccccc;
+}
+.mybtn p{
+	font-size: 30px;
+	text-align: center;
+	display: flex;
+	overflow: hidden;
+	margin: 20px 0; 
+}
+.mybtn ion-icon{
+	font-size: 60px;
+	margin-left: 0px;
+	padding: 5px
+}
+.up{
+	text-align: center;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	color: white;
+}
+#sroll-up{
+	width: 50px;
+	height: 50px;
+	background:#c19b76;
+	position: fixed;
+	right: 50px;
+	bottom: 100px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px
+}
+#sroll-up:hover{
+	background:#9A7E62;
+	cursor: pointer;
+}
